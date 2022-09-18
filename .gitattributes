@@ -1,0 +1,40 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+*.cpp text
+*.c text
+*.h text
+*.gd text
+*.cs text
+# Declare files that will always have CRLF line endings on checkout.
+*.sln text eol=crlf
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.gitignore filter=lfs diff=lfs merge=lfs -text
+*.ico filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.import filter=lfs diff=lfs merge=lfs -text
+*.gdns filter=lfs diff=lfs merge=lfs -text
+*.gd filter=lfs diff=lfs merge=lfs -text
+/addons/godot-git-plugin/LICENSE filter=lfs diff=lfs merge=lfs -text
+*.md filter=lfs diff=lfs merge=lfs -text
+*.gdnlib filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
+*.cfg filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.exp filter=lfs diff=lfs merge=lfs -text
+*.lib filter=lfs diff=lfs merge=lfs -text
+*.bbscript filter=lfs diff=lfs merge=lfs -text
+*.ron filter=lfs diff=lfs merge=lfs -text
+*.tscn filter=lfs diff=lfs merge=lfs -text
+*.wasm filter=lfs diff=lfs merge=lfs -text
+*.material filter=lfs diff=lfs merge=lfs -text
+*.glb filter=lfs diff=lfs merge=lfs -text
+*.pac filter=lfs diff=lfs merge=lfs -text
+*.godot filter=lfs diff=lfs merge=lfs -text
+*.gdshader filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
