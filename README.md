@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c6fbd9609c830c1d8a029d0d73127b4a9ccafd82af38d6652c6ea2d382a90690
-size 595
+# ASWViewer
+A viewer for Arc System Works scripts and hitboxes written in Godot. Currently only supports Guilty Gear -Strive-. It also displays the models and animations corresponding to the viewed frames.
+
+To switch to a different frame, select a "sprite" from the script view.
+
+This makes use of my personal forks of https://github.com/super-continent/bbscript and https://github.com/super-continent/arcsys/. I have not pushed the correct branches yet, please wait for the source.
+
+![image](https://user-images.githubusercontent.com/9942055/190925794-d4c3ed40-41c0-4a01-b6c3-c176ef82fe21.png)
